@@ -14,53 +14,65 @@
   <body>
     <div class="container-fluid">
       <!-- SECTION header -->
-      <header class="row">
-        <div class="col bg-image">
-          <div class="row">
-            <div class="col">
-              <!-- TODO navbar -->
-
-              <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <a
-                  class="navbar-brand bg-dark text-light pl-2 pr-2 text-shadow"
-                  href="#"
-                  >Navbar</a
+      <header class="row bg-image">
+        <div class="col-12 pt-3 pb-5">
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <!-- TODO add shadow on NAVBAR and button -->
+            <a
+              class="navbar-brand bg-dark text-light pl-2 pr-2 text-shadow"
+              href="#"
+              >Navbar</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav text-shadow">
+                <a class="nav-item nav-link active text-light" href="#"
+                  >Home <span class="sr-only">(current)</span></a
                 >
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNavAltMarkup"
-                  aria-controls="navbarNavAltMarkup"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse justify-content-end"
-                  id="navbarNavAltMarkup"
-                >
-                  <div class="navbar-nav text-shadow">
-                    <a class="nav-item nav-link active text-light" href="#"
-                      >Home <span class="sr-only">(current)</span></a
-                    >
-                    <a class="nav-item nav-link text-light" href="#">Link1</a>
-                    <a class="nav-item nav-link text-light" href="#">Link2</a>
-                    <a class="nav-item nav-link text-light" href="#">Link3</a>
-                  </div>
-                </div>
-              </nav>
+                <a class="nav-item nav-link text-light" href="#">Link1</a>
+                <a class="nav-item nav-link text-light" href="#">Link2</a>
+                <a class="nav-item nav-link text-light" href="#">Link3</a>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <!-- TODO content + button -->
-            </div>
-            <div class="col">
-              <!-- TODO media element -->
-            </div>
-          </div>
+          </nav>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex flex-column justify-content-end pb-5"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in ad
+            quae, eaque magnam et, laborum odio dolores accusamus est id
+            consequatur consectetur placeat expedita veniam magni quia iste
+            obcaecati.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <button type="button" class="btn btn-secondary rounded-edge">
+            Secondary
+          </button>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-end pt-5">
+          <!-- TODO add shadow on video -->
+          <iframe
+            width="448"
+            height="252"
+            src="https://www.youtube.com/embed/2jSHKPp-66w?start=66"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </header>
       <main class="row">
@@ -69,8 +81,55 @@
           <div class="row">
             <div class="col">
               <div class="row">
-                <div class="col">
+                <div class="col-12 col-md-4 pt-5">
                   <!-- TODO add cards -->
+
+                  <div class="card mb-3">
+                    <h3 class="card-header">Card header</h3>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <h6 class="card-subtitle text-muted">
+                        Support card subtitle
+                      </h6>
+                    </div>
+                    <img
+                      style="height: 200px; width: 100%; display: block;"
+                      src="//placehold.it/200x200"
+                      alt="Card image"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Cras justo odio</li>
+                      <li class="list-group-item">Dapibus ac facilisis in</li>
+                      <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        Card subtitle
+                      </h6>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

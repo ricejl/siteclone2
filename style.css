@@ -1,5 +1,5 @@
 body {
-  height: 50vh;
+  height: 100vh;
   outline: 1px solid red;
 }
 
@@ -16,4 +16,8 @@ body {
 
 .text-shadow {
   text-shadow: 1px 1px black;
+}
+
+.rounded-edge {
+  border-radius: 8px;
 }
