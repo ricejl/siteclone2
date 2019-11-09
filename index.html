@@ -17,7 +17,7 @@
       <header class="row bg-image">
         <div class="col-12 pt-3 pb-5">
           <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <!-- TODO add shadow on NAVBAR and button -->
+            <!-- TODO add shadow on NAVBAR and button, change hamburger color -->
             <a
               class="navbar-brand bg-dark text-light pl-2 pr-2 text-shadow"
               href="#"
@@ -66,11 +66,10 @@
         <div class="col-12 col-md-6 d-flex justify-content-end pt-5">
           <!-- TODO add shadow on video -->
           <iframe
-            width="448"
-            height="252"
-            src="https://www.youtube.com/embed/2jSHKPp-66w?start=66"
+            src="https://player.vimeo.com/video/97007494?title=0&byline=0&portrait=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
             frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allow="autoplay; fullscreen"
             allowfullscreen
           ></iframe>
         </div>
@@ -78,77 +77,81 @@
       <main class="row">
         <div class="col">
           <!-- SECTION cards -->
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col-12 col-md-4 pt-5">
-                  <!-- TODO add cards -->
 
-                  <div class="card mb-3">
-                    <h3 class="card-header">Card header</h3>
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <h6 class="card-subtitle text-muted">
-                        Support card subtitle
-                      </h6>
-                    </div>
-                    <img
-                      style="height: 200px; width: 100%; display: block;"
-                      src="//placehold.it/200x200"
-                      alt="Card image"
-                    />
-                    <div class="card-body">
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cras justo odio</li>
-                      <li class="list-group-item">Dapibus ac facilisis in</li>
-                      <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                      2 days ago
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Card subtitle
-                      </h6>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
+          <div class="row pl-3 pr-3 bg-row-cards">
+            <div class="col-12 col-md-4 pt-5">
+              <div class="card border-0 img-bg-transparent card-drop">
+                <img
+                  class="card-img-top img-fluid rounded-circle mb-3"
+                  style="display: block;"
+                  src="//placehold.it/200x200"
+                  alt="Card image"
+                />
+                <div class="card-body add-border bg-secondary box-shadow-dark">
+                  <p class="card-text pb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-drop">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 pt-5">
+              <div class="card border-0 img-bg-transparent card-drop">
+                <img
+                  class="card-img-top img-fluid rounded-circle mb-3"
+                  style="display: block;"
+                  src="//placehold.it/200x200"
+                  alt="Card image"
+                />
+                <div class="card-body add-border bg-secondary box-shadow-dark">
+                  <p class="card-text pb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-drop">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 pt-5">
+              <div class="card border-0 img-bg-transparent card-drop">
+                <img
+                  class="card-img-top img-fluid rounded-circle mb-3"
+                  style="display: block;"
+                  src="//placehold.it/200x200"
+                  alt="Card image"
+                />
+                <div class="card-body add-border bg-secondary box-shadow-dark">
+                  <p class="card-text pb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-drop">Go somewhere</a>
                 </div>
               </div>
             </div>
           </div>
-          <hr />
-
-          <!-- SECTION penultimate article -->
           <div class="row">
             <div class="col">
-              <!-- TODO insert img -->
+              <hr class="hr-bold" />
             </div>
-            <div class="col">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                odit consequuntur ad optio blanditiis iusto ab veritatis, eum
-                provident quas eaque corrupti vero nisi quia aperiam modi
-                officia, voluptatem molestiae.
-              </p>
-            </div>
+          </div>
+        </div>
+
+        <!-- SECTION penultimate article -->
+        <div class="row">
+          <div class="col">
+            <!-- TODO insert img -->
+          </div>
+          <div class="col">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              odit consequuntur ad optio blanditiis iusto ab veritatis, eum
+              provident quas eaque corrupti vero nisi quia aperiam modi officia,
+              voluptatem molestiae.
+            </p>
           </div>
         </div>
 
@@ -166,5 +169,7 @@
         </div>
       </div>
     </div>
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
   </body>
 </html>
