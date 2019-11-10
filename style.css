@@ -49,3 +49,27 @@
   height: 0.2rem;
   background-color: grey;
 }
+
+#typewriter-img {
+  max-width: 80vw;
+}
+
+@media only screen and (min-width: 768px) {
+  #typewriter-img {
+    max-width: 50vw;
+  }
+}
+
+.logo {
+  max-height: 40vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    max-height: 30vh;
+  }
+}
+
+h5 {
+  color: var(--light);
+}
