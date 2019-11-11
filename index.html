@@ -9,7 +9,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/lux/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+        integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" crossorigin="anonymous" />
+    <title>Nevermore</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -17,12 +19,15 @@
       <header class="row bg-image">
         <div class="col-12 pt-3 pb-5">
           <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <!-- TODO add shadow on NAVBAR and button, change hamburger color -->
+            <!-- TODO add shadow on button, change hamburger color -->
             <a
-              class="navbar-brand bg-dark text-light pl-2 pr-2 text-shadow"
+              class="navbar-brand bg-dark text-light pl-2 pr-2 text-shadow box-shadow-light"
               href="#"
-              >Navbar</a
+              >
+              <i class="fas fa-book-open pr-1"></i></i>Navbar
+              </a
             >
+            <!-- NOTE navbar-toggler is border color of hamburger-->
             <button
               class="navbar-toggler"
               type="button"
@@ -32,6 +37,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
+            <!-- NOTE 3 lines of hamburger - change within url -->
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
@@ -78,11 +84,11 @@
       </header>
       <main>
         <!-- SECTION cards -->
-        <div class="row pl-3 pr-3 bg-row-cards">
+        <div class="row pl-3 pr-3 bg-row-cards row-drop">
           <div class="col-12 col-md-4 pt-5 mt-5">
-            <div class="card border-0 img-bg-transparent card-drop">
+            <div class="card border-0 img-bg-transparent">
               <img
-                class="card-img-top img-fluid rounded-circle mb-3 img-squarify"
+                class="card-img-top img-fluid rounded-circle mb-3 img-crop"
                 style="display: block;"
                 src="https://images.pexels.com/photos/1301585/pexels-photo-1301585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 alt="Card image"
@@ -92,15 +98,16 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary btn-drop">Go somewhere</a>
+                <!-- TODO change positioning/size of buttons for better mobile responsiveness -->
+                <a href="#" class="btn btn-primary btn-drop rounded-edge">Go somewhere</a>
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-4 pt-5 mt-5">
-            <div class="card border-0 img-bg-transparent card-drop">
+            <div class="card border-0 img-bg-transparent">
               <img
-                class="card-img-top img-fluid rounded-circle mb-3 img-squarify"
+                class="card-img-top img-fluid rounded-circle mb-3 img-crop"
                 style="display: block;"
                 src="https://images.unsplash.com/photo-1564425572543-9ed7405b28f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=986&q=80"
                 alt="Card image"
@@ -110,15 +117,15 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary btn-drop">Go somewhere</a>
+                <a href="#" class="btn btn-primary btn-drop rounded-edge">Go somewhere</a>
               </div>
             </div>
           </div>
 
           <div class="col-12 col-md-4 pt-5 mt-5">
-            <div class="card border-0 img-bg-transparent card-drop">
+            <div class="card border-0 img-bg-transparent">
               <img
-                class="card-img-top img-fluid rounded-circle mb-3 img-squarify"
+                class="card-img-top img-fluid rounded-circle mb-3 img-crop"
                 style="display: block;"
                 src="https://images.unsplash.com/photo-1524420775504-d6dbb9f9819b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80"
                 alt="Card image"
@@ -128,7 +135,7 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary btn-drop">Go somewhere</a>
+                <a href="#" class="btn btn-primary btn-drop rounded-edge">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -142,7 +149,6 @@
         <!-- SECTION penultimate -->
         <div class="row mt-5 mb-5 mr-md-3 ml-md-3 pb-3">
           <div class="col penultimate-section text-center p-3">
-            <!-- TODO insert img -->
             <img
               src="https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
               alt="typewriter"
@@ -175,13 +181,13 @@
       </main>
 
       <!-- SECTION footer -->
-      <div class="row bg-dark">
+      <footer class="row bg-dark">
         <div
           class="col text-light text-center d-md-flex direction-md-row justify-content-md-between align-items-md-end p-5"
         >
           <h5>LEFT</h5>
           <h5>RIGHT</h5>
-        </div>
+        </footer>
       </div>
     </div>
 

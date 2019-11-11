@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   width: auto;
-  /* clip-path is an alternative to linear-gradient that cuts off image */
+  /* NOTE clip-path is an alternative to linear-gradient that cuts off image */
   /* clip-path: polygon(0 0, 100% 80%, 100% 0); */
 }
 
@@ -16,6 +16,14 @@
 
 .text-shadow {
   text-shadow: 1px 1px black;
+}
+
+.box-shadow-light {
+  box-shadow: inset 0 0 4px rgb(115, 115, 115);
+}
+
+.box-shadow-light:hover {
+  box-shadow: inset 0 0 4px rgb(90, 90, 90);
 }
 
 .box-shadow-dark {
@@ -30,14 +38,14 @@
   border: thin outset var(--primary);
 }
 
-.card-drop {
+.row-drop {
   margin-bottom: -3em;
 }
 
 .btn-drop {
   position: absolute;
-  bottom: -1em;
-  right: 18%;
+  left: 50%;
+  transform: translate(-50%, -1em);
 }
 
 .bg-row-cards {
@@ -48,8 +56,10 @@
   background-color: transparent;
 }
 
-.img-squarify {
-  height: 250px;
+/* TODO how to maintain dimensions? set min and max height and width for all screen sizes OR save images at certain size*/
+.img-crop {
+  height: 350px;
+  width: 350px;
   object-fit: cover;
 }
 
