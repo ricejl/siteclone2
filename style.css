@@ -48,6 +48,11 @@
   background-color: transparent;
 }
 
+.img-squarify {
+  height: 250px;
+  object-fit: cover;
+}
+
 .hr-bold {
   margin-top: 8rem;
   border: none;
