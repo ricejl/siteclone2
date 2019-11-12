@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   width: auto;
-  /* NOTE clip-path is an alternative to linear-gradient that cuts off image */
+  /* NOTE clip-path is an alternative to linear-gradient that cuts off image at specified coordinates */
   /* clip-path: polygon(0 0, 100% 80%, 100% 0); */
 }
 
@@ -16,6 +16,16 @@
 
 .text-shadow {
   text-shadow: 1px 1px black;
+}
+
+.navbar-toggler.custom-toggler {
+  border-color: rgba(240, 240, 240, 0.7);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 215, 215, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  /* #d9d7d7 */
+  /* rgba(0, 0, 0, 0.3) */
 }
 
 .box-shadow-light {

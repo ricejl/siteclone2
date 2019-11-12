@@ -19,7 +19,7 @@
       <header class="row bg-image">
         <div class="col-12 pt-3 pb-5">
           <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <!-- TODO add shadow on button, change hamburger color -->
+            <!-- TODO change hamburger color -->
             <a
               class="navbar-brand bg-dark text-light pl-2 pr-2 text-shadow box-shadow-light"
               href="#"
@@ -29,7 +29,7 @@
             >
             <!-- NOTE navbar-toggler is border color of hamburger-->
             <button
-              class="navbar-toggler"
+              class="navbar-toggler custom-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNavAltMarkup"
@@ -37,11 +37,11 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-            <!-- NOTE 3 lines of hamburger - change within url -->
+            <!-- NOTE navbar-toggler-icon is the 3 lines of hamburger - change within url using custom css -->
               <span class="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-end"
+              class="collapse navbar-collapse custom-toggler-icon justify-content-end"
               id="navbarNavAltMarkup"
             >
               <div class="navbar-nav text-shadow">
@@ -98,7 +98,6 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <!-- TODO change positioning/size of buttons for better mobile responsiveness -->
                 <a href="#" class="btn btn-primary btn-drop rounded-edge">Go somewhere</a>
               </div>
             </div>
@@ -167,7 +166,6 @@
 
         <div class="row bg-logo">
           <div class="col pt-5 text-center">
-            <!-- TODO add border to logo image -->
             <figure>
               <img
                 src="https://images.unsplash.com/photo-1550229055-4ad2531aa9dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
